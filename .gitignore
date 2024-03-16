@@ -13,4 +13,4 @@
 !.zprofile
 
 ## Zed
-.config/zed/settings.json
+!.config/zed/settings.json
