@@ -5,5 +5,12 @@
 
 # a part of dotfile is not ignored.
 
+## Git
 !.gitignore
+
+## zsh
 !.zshrc
+!.zprofile
+
+## Zed
+.config/zed/settings.json
