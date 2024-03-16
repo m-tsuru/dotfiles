@@ -1,0 +1,9 @@
+# Almost Files are ignored.
+
+*
+**/
+
+# a part of dotfile is not ignored.
+
+!.gitignore
+!.zshrc
