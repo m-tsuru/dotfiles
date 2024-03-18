@@ -1,3 +1,5 @@
+echo "> Read .zprofile"
+
 # ls
 alias ls="ls -aG"
 alias la="ls -lahG"
@@ -21,4 +23,7 @@ alias gst="git status"
 alias ghrc="gh repo clone"
 alias ghrl="gh repo list"
 
-cd ~/source
+# if you're in the current directory, the shell will take you to another path.
+if [ $(pwd) = "/Users/sasakulab" ]; then
+    cd ~/source
+fi
